@@ -9,7 +9,7 @@ end
 end
 
 def not_safe?(speed)
-  speed.i_between(40, 60) ? true : false 
+  speed.i_between(40, 60) ? false : false 
 end
 
 
